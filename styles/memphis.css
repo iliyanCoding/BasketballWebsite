@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #5D76A9;
+    color: white;
+    padding: 10px 20px; /* Reduced padding for a tighter layout */
+    display: flex; /* Flexbox layout for header */
+    justify-content: center; /* Center all items horizontally */
+    align-items: center; /* Align items vertically */
+}
+
+.team-logo {
+    width: 50px; /* Keep the size of the team logo consistent */
+    height: auto;
+    margin-right: 10px; /* Reduce space between the logo and the title */
+}
+
+header h1 {
+    margin: 20px; /* Remove any extra margin */
+    text-align: center; /* Center the title */
+    font-size: 1.8em; /* Adjust the font size if needed */
+}
+
+.nba-logo {
+    width: 60px; /* Increased the size of the NBA logo */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-left: 10px; /* Reduce space between the title and the NBA logo */
+}
+
+.nba-logo:hover {
+    opacity: 0.8; /* Slight transparency on hover */
+}
+
+.players-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.player {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+}
+
+.player img {
+    width: 210px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.player-details {
+    display: flex;
+    align-items: center;
+}
+
+.player-details div {
+    margin-left: 20px;
+}
+
+.player-stats {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.player-stats table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.player-stats table, .player-stats th, .player-stats td {
+    border: 1px solid #ddd;
+}
+
+.player-stats th, .player-stats td {
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #5D76A9;
+    color: white;
+}
